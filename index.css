@@ -4,7 +4,7 @@
 
 body {
     background-color: #f9d5e5;
-    /* background-image: url(images/painting.jpg); */
+    /* background-image: url(painting.jpg); */
     background-repeat: no-repeat;
     background-size: cover;
     /* background-position:bottom; */
@@ -55,7 +55,7 @@ nav li {
 }
 
 #doodle {
-    background-image: url(images/free.jpg);
+    background-image: url(free.jpg);
     height: 300px;
     background-repeat: no-repeat;
     background-size: cover;
