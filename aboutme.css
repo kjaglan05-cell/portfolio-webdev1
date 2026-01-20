@@ -1,0 +1,121 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f9d5e5;
+    /* background-image: url(images/painting.jpg); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position:bottom; */
+
+    /* float:right;} */
+}
+
+#wrapper {
+    background: linear-gradient(#fbefcc, #f9d5e5);
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header {
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    text-align: center;
+    color: lightslategrey;
+    background: linear-gradient(#fff, #f7cac9);
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    /* margin-left: 20px; */
+    align-items: center;
+    background-color: #d5e1df;
+    font-size: 1em;
+    width:100%;
+    
+
+}
+
+nav a {
+    text-decoration: none;
+    padding-right: 10px;
+    color: #034f84
+}
+   nav a:hover{color:aquamarine;}
+nav ul {
+    list-style-type: none;
+}
+
+nav li {
+    display: inline;
+}
+
+#doodle {
+    background-image: url(images/free.jpg);
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+footer {
+    text-align: center;
+    font-size: 0.9em;
+    background: linear-gradient(#fff, #f7cac9);
+    ;
+}
+
+main p {
+    font-size: 1.5em;
+}
+
+.block {
+    color: #3e4444;
+    font-weight: bold;
+}
+
+
+@media (min-width: 768px) {
+    #wrapper {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    nav {
+        flex-direction: row;
+        justify-content: center;
+        font-size: 1.2em;
+        padding: 10px 0;
+        /* width: 100%; */
+        /* height:100%; */
+    }
+
+    nav li {
+        margin: 0 15px;
+    }
+
+    nav a {
+        font-size: 1.2em;
+    }
+    nav a:hover{color:aquamarine;}
+
+    
+
+    main p {
+        font-size: 1.6em;
+        line-height: 1.8;
+    }
+
+    footer {
+        font-size: 1em;
+        padding: 20px;
+    }
+    #doodle{
+    height: 400px;
+    /* background-position: center; */
+    background-size: cover;
+  }
+}

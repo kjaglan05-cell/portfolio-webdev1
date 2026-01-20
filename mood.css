@@ -1,0 +1,135 @@
+body {
+    font-family: 'Gill Sans', sans-serif;
+    margin: 0;
+    background: linear-gradient(#fafafa, #ececec);
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background:linear-gradient(#484f4f,#8ca3a3)    ;
+    color: white;
+}
+
+/* Navigation */
+nav {
+    background: linear-gradient(#c5d5c5,#d6d4e0);
+    line-height: 2.5em;
+    text-align: left;
+    padding: 0;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    text-decoration: none;
+    color:darkslategray;
+    font-size: 1em;
+    display: block;
+    padding: 8px 12px;
+    text-align: center;
+}
+
+nav a:hover {
+    color: aquamarine;
+}
+
+nav li {
+    border-bottom: 1px solid #FEFAEB;
+}
+main p{
+    margin-left: 10px;
+    color:#3a2d5b;
+    font-size: 1em;
+    font-family: cursive
+
+;
+}
+.content{
+    background-color:#f0f8f5;
+}
+.moodboard {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 15px;
+    padding: 20px;
+    background:linear-gradient(#484f4f,#daebe8);
+}
+
+.mood-item {
+    background-color:  #ddeedd;
+    border-radius: 5px;
+    overflow: hidden;
+    text-align: center;
+    font-size: 1.2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 150px;
+    color: #333;
+    font-weight: bold;
+}
+
+.mood-item img {
+    width: 80%;
+    height: 80%;
+    object-fit: cover;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+     background-color: #484f4f;
+    color: white;
+}
+
+footer  a{
+    text-decoration: none;
+    color:#f0f8f5
+}
+
+/* --- MEDIA QUERIES --- */
+
+/* Tablet screens */
+/* Large screens: two-column moodboard inside main */
+@media (min-width: 768px) {
+   
+    .content {
+        display: flex;      /* make it a flex container */
+        flex-direction: row; /* nav left, main right */
+    }
+
+    nav {
+        width: 200px;
+        flex-shrink: 0;
+    }
+
+    main {
+        flex: 1; /* fill remaining space */
+    }
+
+    .moodboard {
+        grid-template-columns: repeat(2, 1fr); /* exactly 2 columns */
+        gap: 20px;
+        padding: 20px;
+    }
+
+    .mood-item {
+        min-height: 150px;
+        font-size: 1.2em;
+    }
+
+
+}
+
+
+/* Very small screens */
+@media (max-width: 400px) {
+    .moodboard {
+        grid-template-columns: 1fr;
+    }
+}
