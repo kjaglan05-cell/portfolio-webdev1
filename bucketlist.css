@@ -41,7 +41,7 @@ nav {
     font-size: 0.9em;
     background: linear-gradient(#80ced6, #36486b);
     opacity: 0.6;
-    background-image: url(images/dreamwonders.jpg);
+    background-image: url(dreamwonders.jpg);
     height: 300px;
     /* width:300px; */
     float: right;
@@ -77,7 +77,7 @@ nav li {
 }
 
 #dream {
-    background-image: url(images/dreamwonders.jpg);
+    background-image: url(dreamwonders.jpg);
     height: 300px;
     width: 300px;
     float: right;
@@ -128,7 +128,7 @@ footer {
         padding: 0px;
         /* background-image: none; */
         background: linear-gradient( #92a8d1,#36486b);
-        background-image: url(images/whynot.jpg);
+        background-image: url(whynot.jpg);
         opacity:1;
     }
 
