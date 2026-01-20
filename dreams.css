@@ -45,7 +45,7 @@ nav {
     font-size: 0.9em;
     background-color:#b0aac0;
     opacity: 0.6;
-    background-image: url(../images/painting.jpg);
+    background-image: url(painting.jpg);
     /* height: 300px; */
     /* height: 300px; */
     /* width:300px; */
@@ -81,7 +81,7 @@ nav li {
 }
 
 #dream {
-    background-image: url(images/dreamwonders.jpg);
+    background-image: url(dreamwonders.jpg);
     height: 300px;
     width: 300px;
     float: right;
@@ -132,7 +132,7 @@ footer {
         padding: 0px;
         /* background-image: none; */
         background: linear-gradient( #92a8d1,#36486b);
-        background-image: url(../images/skyfly.jpg);
+        background-image: url(skyfly.jpg);
         opacity:1;
     }
 
